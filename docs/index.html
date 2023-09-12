@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Citator Bookmarklets</title>
+</head>
+<body>
+  <h1>Case Citator Bookmarklets</h1>
+  <a href="javascript:(()=&gt;{var a=o=&gt;/(?:austlii\.edu.\au|bailii\.org|lawcite\.org)\/cgi-bin\/LawCite/i.test(o),t=a;var e=window.getSelection(),i;e?i=e.toString():t(window.location.href)&amp;&amp;(i=new URL(window.location).searchParams.get(&quot;cit&quot;));i&amp;&amp;window.open(`https://advance.lexis.com/search/?pdsearchterms=case-citation(${i})`,&quot;_blank&quot;);})();" class="bkmrklt">LexisNexis case search</a>
+  <a href="javascript:(()=&gt;{var a=o=&gt;/(?:austlii\.edu.\au|bailii\.org|lawcite\.org)\/cgi-bin\/LawCite/i.test(o),t=a;var e=window.getSelection(),i;e?i=e.toString():t(window.location.href)&amp;&amp;(i=new URL(window.location).searchParams.get(&quot;cit&quot;));i&amp;&amp;window.open(`https://anzlaw.thomsonreuters.com/Search/Results.html?comp=wlau&amp;query=adv:%20CI(${i})`,&quot;_blank&quot;);})();" class="bkmrklt">Westlaw case search</a>
+  <a href="javascript:(()=&gt;{var i=window.getSelection(),t;i&amp;&amp;(t=i.toString());t?window.open(`http://www.lawcite.org/cgi-bin/LawCite?cit=${t}`,&quot;_blank&quot;):window.open(&quot;http://www.lawcite.org&quot;);})();" class="bkmrklt">LawCite case search</a>
+  <a href="javascript:(()=&gt;{var a=o=&gt;/(?:austlii\.edu.\au|bailii\.org|lawcite\.org)\/cgi-bin\/LawCite/i.test(o),i=a;var e=window.getSelection(),t;e?t=e.toString():i(window.location.href)&amp;&amp;(t=new URL(window.location).searchParams.get(&quot;cit&quot;));t&amp;&amp;window.open(`https://www.jade.io/search/text.metadatakey=citation:text=${t}`,&quot;_blank&quot;);})();" class="bkmrklt">Jade.io case search</a>
+  <a href="javascript:(()=&gt;{var e,a=(e=window.getSelection())==null?void 0:e.toString();a&amp;&amp;window.open(`https://www.legalabbrevs.cardiff.ac.uk/abbreviations/abbsearch/asearch/${a}/atype/Exact`,&quot;_blank&quot;);})();" class="bkmrklt">Cardiff Index to Legal Abbreviations exact abbreviation search</a>
+</body>
+</html>

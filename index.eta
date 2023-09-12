@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Citator Bookmarklets</title>
+</head>
+<body>
+  <h1>Case Citator Bookmarklets</h1>
+  <a href="<%= bkmrklt('lexis.js') %>" class="bkmrklt">LexisNexis case search</a>
+  <a href="<%= bkmrklt('westlaw.js') %>" class="bkmrklt">Westlaw case search</a>
+  <a href="<%= bkmrklt('lawcite.js') %>" class="bkmrklt">LawCite case search</a>
+  <a href="<%= bkmrklt('jade.js') %>" class="bkmrklt">Jade.io case search</a>
+  <a href="<%= bkmrklt('cardiff.js') %>" class="bkmrklt">Cardiff Index to Legal Abbreviations exact abbreviation search</a>
+</body>
+</html>
